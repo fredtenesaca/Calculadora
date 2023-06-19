@@ -6,8 +6,7 @@ const funcionPredeterminada = () => {
  
       });
 
-    // Código de la función predeterminada
-    console.log("¡Función predeterminada invocada!");
+    
   };
   
   // Invocar la función predeterminada
