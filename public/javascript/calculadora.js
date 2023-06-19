@@ -1,4 +1,4 @@
-function funcionPredeterminada() {
+const funcionPredeterminada = () => {
     const formulario = document.getElementById('formulario');
 
     formulario.addEventListener('submit', (evento) => {
@@ -30,7 +30,7 @@ function funcionPredeterminada() {
     });
 
 
-}
+};
   
   // Invocar la función predeterminada
   funcionPredeterminada();
