@@ -5,8 +5,7 @@ let funcionPredeterminada=()=>{
     formulario.addEventListener('submit', (evento) => {
         evento.preventDefault();
 
-        let valorPorHora=0, interfazHoras=0, htmlHoras=0,
-        javascriptHoras=0, cssHoras=0, testingHoras=0, apisHoras=0
+        let valorPorHora=0, interfazHoras=0, htmlHoras=0,javascriptHoras=0, cssHoras=0, testingHoras=0, apisHoras=0
 
         if(parseFloat(document.getElementById('valorPorHora').value)>0){
             valorPorHora=parseFloat(document.getElementById('valorPorHora').value)
@@ -36,8 +35,7 @@ let funcionPredeterminada=()=>{
             apisHoras=parseFloat(document.getElementById('apisHoras').value)
         }
 
-        resultado=(valorPorHora*interfazHoras)+(valorPorHora*htmlHoras)+(valorPorHora*javascriptHoras)+(valorPorHora*cssHoras)+(valorPorHora*testingHoras)+
-        (valorPorHora*apisHoras)
+        resultado=(valorPorHora*interfazHoras)+(valorPorHora*htmlHoras)+(valorPorHora*javascriptHoras)+(valorPorHora*cssHoras)+(valorPorHora*testingHoras)+(valorPorHora*apisHoras)
 
         document.getElementById('valorTotal').value=resultado
     })
