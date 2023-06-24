@@ -36,7 +36,6 @@ let funcionPredeterminada=()=>{
         }
 
         resultado=valorPorHora* (interfazHoras+htmlHoras+javascriptHoras+cssHoras+testingHoras+apisHoras);
-
         document.getElementById('valorTotal').value=resultado
     })
 
