@@ -20,7 +20,7 @@ let funcionPredeterminada=()=>{
         }
         
         if(parseFloat(document.getElementById('javascriptHoras').value)>0){
-            javascriptHoras=parseFloat(document.getElementById(' javascriptHoras').value)
+            javascriptHoras=parseFloat(document.getElementById('javascriptHoras').value)
         }
 
         if(parseFloat(document.getElementById('cssHoras').value)>0){
