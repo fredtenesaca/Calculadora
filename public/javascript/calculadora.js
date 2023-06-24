@@ -35,7 +35,7 @@ let funcionPredeterminada=()=>{
             apisHoras=parseFloat(document.getElementById('apisHoras').value)
         }
 
-        resultado=(valorPorHora*interfazHoras)+(valorPorHora*htmlHoras)+(valorPorHora*javascriptHoras)+(valorPorHora*cssHoras)+(valorPorHora*testingHoras)+(valorPorHora*apisHoras)
+        resultado=valorPorHora* (interfazHoras+htmlHoras+javascriptHoras+cssHoras+testingHoras+apisHoras);
 
         document.getElementById('valorTotal').value=resultado
     })
